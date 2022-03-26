@@ -1,0 +1,121 @@
+[
+    {
+      "item": "Dubwear Track Pants",
+      "cost": 41.95,
+      "category": "Clothes",
+      "colours": [“Grey”, “Navy”, “Green”],
+      "id": 2
+    },
+    {
+      "item": "Standard Dress Crewneck",
+      "cost": 32.95,
+      "category": "Clothes",
+      "colours": [“Navy”, “Green”, “Red”],
+      "id": 3
+    },
+    {
+      "item": "Barbarian Rugby Shirt",
+      "cost": 64.95,
+      "category": "Clothes",
+      "colours": [“Navy”, “Red/Green”, “Red/Green/Navy”],
+      "id": 4
+    },
+    {
+      "item": "LCS Branded Hoodie",
+      "cost": 39.95,
+      "category": "Clothes",
+      "colours": [“Green”, “Red”, “White”, “Navy”],
+      "id": 5
+    },
+    {
+      "item": "LCS Grove Hoodie",
+      "cost": 49.95,
+      "category": "Clothes",
+      "colours": [“Green”],
+      "id": 6
+    },
+    {
+      "item": "Standard 1/4-zip",
+      "cost": 39.95,
+      "category": "Clothes",
+      "colours": [“Navy”, “White”, “Green”],
+      "id": 7
+    },
+    {
+      "item": "Nalgene 32oz Water Bottle",
+      "cost": 15.95,
+      "category": "Other",
+      "colours": [“Red”],
+      "id": 8
+    },
+    {
+      "item": "Lakefield Branded Baseball Caps",
+      "cost": 21.95,
+      "category": "Clothes",
+      "colours": [“Red”, “Green”, “Navy”, “Black”],
+      "id": 9
+    },
+    {
+      "item": "Safety goggles",
+      "cost": 6.95,
+      "category": "Other",
+      "colours": [“N/A”],
+      "id": 10
+    },
+    {
+      "item": "Hilroy 300pg Notebook",
+      "cost": 5.95,
+      "category": "Academics",
+      "colours": [“Black”, “Blue”],
+      "id": 11
+    },
+    {
+      "item": "Protractor",
+      "cost": 0.4,
+      "category": "Academics",
+      "colours": [“N/A”],
+      "id": 12
+    },
+    {
+      "item": "WOW Mechanical Pencil",
+      "cost": 0.55,
+      "category": "Academics",
+      "colours": [“Black”, “Blue”, “Green”],
+      "id": 13
+    },
+    {
+      "item": "0.5mm Lead Refills (50)",
+      "cost": 0.95,
+      "category": "Academics",
+      "colours": [“N/A”],
+      "id": 14
+    },
+    {
+      "item": "Texas Instruments Calculator",
+      "cost": 17.95,
+      "category": "Academics",
+      "colours": [“N/A”],
+      "id": 15
+    },
+    {
+      "item": "Frixion 0.7mm Erasable Pen",
+      "cost": 2.95,
+      "category": "Academics",
+      "colours": [“Black”, “Blue”, “Red”, “Pink”, “Purple”, “Green”],
+      "id": 16
+    },
+    {
+      "item": "Gum",
+      "cost": 0.95,
+      "category": "Other",
+      "colours": [“N/A”],
+      "id": 17
+    },
+    {
+      "item": "LCS Mug",
+      "cost": 9.95,
+      "category": "Other",
+      “colours”: [“N/A”],
+      "id": 18
+    }
+  ]
