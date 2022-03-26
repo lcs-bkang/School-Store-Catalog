@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Catalog: Decodable {
+struct Catalog: Decodable, Identifiable {
     
     let item: String
     let cost: Double

@@ -10,15 +10,15 @@ import SwiftUI
 struct CatalogView: View {
     
     // Instance of the Catalog
-    var catalog = Catalog()
+    var catalog = CatalogStore()
     
     // The text that changes when people use the search bar
     @State private var searchText = ""
     
     var body: some View {
         VStack {
-            List(catalog) { currentItem in
-                Text(catalog.item)
+            List(catalog.items) { currentItem in
+                Text(currentItem.item)
             }
         }
             .padding()
