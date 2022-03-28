@@ -14,7 +14,6 @@ struct Catalog: Decodable, Identifiable {
     let category: String
     let colours: [String]
     let id: Int
+    
+    static let exampleData = Catalog(item: "Blazar", cost: 55.95, category: "Clothes", colours: ["Green", "Navy"], id: 23)
 }
-
-
-let ExampleData: Catalog = item = "Blazar", cost = 5.99, category = "Clothes", colours: ["Navy", "Green"], id: 150

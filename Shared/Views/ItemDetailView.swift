@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ItemDetailView: View {
     
-    @State private var catalog: CatalogStore
+    let catalog: Catalog
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
@@ -17,6 +18,6 @@ struct ItemDetailView: View {
 
 struct ItemDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ItemDetailView(catalog: ExampleData)
+        ItemDetailView(catalog: catalogTestStore)
     }
 }

@@ -15,7 +15,7 @@ struct School_Store_CatalogApp: App {
     
     var body: some Scene {
         WindowGroup {
-            CatalogView(catalog: CatalogStore())
+            CatalogView(catalog: catalog)
         }
     }
 }

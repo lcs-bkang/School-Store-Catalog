@@ -23,3 +23,5 @@ class CatalogStore: ObservableObject {
         items = try! JSONDecoder().decode([Catalog].self, from: data)
     }
 }
+
+var catalogTestStore = CatalogStore()

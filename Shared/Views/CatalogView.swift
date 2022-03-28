@@ -18,18 +18,20 @@ struct CatalogView: View {
     var body: some View {
         VStack {
             
-            NavigationLink(destination: ItemDetailView())
             List(catalog.items) { currentItem in
-                Text(currentItem.item)
+                
+                NavigationLink(destination: ItemDetailView(catalog: currentItem)) {
+                    Text(currentItem.item)
+                }
             }
         }
-            .padding()
-            .searchable(text: $searchText)
+        .padding()
+        .searchable(text: $searchText)
     }
 }
 
 struct CatalogView_Previews: PreviewProvider {
     static var previews: some View {
-        CatalogView(catalog: ExampleData)
+        CatalogView(catalog: catalogTestStore)
     }
 }
