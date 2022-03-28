@@ -21,6 +21,8 @@
 		A680F65E27EF5C890053B155 /* SchoolStoreCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = A680F65C27EF5C890053B155 /* SchoolStoreCatalog.json */; };
 		A680F66127EF5F150053B155 /* CatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680F66027EF5F150053B155 /* CatalogStore.swift */; };
 		A680F66227EF5F150053B155 /* CatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680F66027EF5F150053B155 /* CatalogStore.swift */; };
+		A6ADCD9227F2330900EFAB0B /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ADCD9127F2330900EFAB0B /* ItemDetailView.swift */; };
+		A6ADCD9327F2330900EFAB0B /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ADCD9127F2330900EFAB0B /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		A680F64D27EE195A0053B155 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
 		A680F65C27EF5C890053B155 /* SchoolStoreCatalog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SchoolStoreCatalog.json; sourceTree = "<group>"; };
 		A680F66027EF5F150053B155 /* CatalogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogStore.swift; sourceTree = "<group>"; };
+		A6ADCD9127F2330900EFAB0B /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 			children = (
 				A680F64A27EE19320053B155 /* SearchBarView.swift */,
 				A680F62A27EE161A0053B155 /* CatalogView.swift */,
+				A6ADCD9127F2330900EFAB0B /* ItemDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6ADCD9227F2330900EFAB0B /* ItemDetailView.swift in Sources */,
 				A680F66127EF5F150053B155 /* CatalogStore.swift in Sources */,
 				A680F64E27EE195A0053B155 /* Catalog.swift in Sources */,
 				A680F63B27EE162D0053B155 /* CatalogView.swift in Sources */,
@@ -230,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6ADCD9327F2330900EFAB0B /* ItemDetailView.swift in Sources */,
 				A680F66227EF5F150053B155 /* CatalogStore.swift in Sources */,
 				A680F64F27EE195A0053B155 /* Catalog.swift in Sources */,
 				A680F63C27EE162D0053B155 /* CatalogView.swift in Sources */,

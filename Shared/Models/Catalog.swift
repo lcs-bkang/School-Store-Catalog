@@ -15,3 +15,6 @@ struct Catalog: Decodable, Identifiable {
     let colours: [String]
     let id: Int
 }
+
+
+let ExampleData: Catalog = item = "Blazar", cost = 5.99, category = "Clothes", colours: ["Navy", "Green"], id: 150

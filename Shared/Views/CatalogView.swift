@@ -10,13 +10,15 @@ import SwiftUI
 struct CatalogView: View {
     
     // Instance of the Catalog
-    var catalog = CatalogStore()
+    @State var catalog: CatalogStore
     
     // The text that changes when people use the search bar
-    @State private var searchText = ""
+    @State var searchText = ""
     
     var body: some View {
         VStack {
+            
+            NavigationLink(destination: ItemDetailView())
             List(catalog.items) { currentItem in
                 Text(currentItem.item)
             }
@@ -28,6 +30,6 @@ struct CatalogView: View {
 
 struct CatalogView_Previews: PreviewProvider {
     static var previews: some View {
-        CatalogView()
+        CatalogView(catalog: ExampleData)
     }
 }
