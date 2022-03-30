@@ -23,7 +23,7 @@ func searchFilter(firstList original: [Catalog], search using: String) -> [Catal
         for item in original {
             
             // If the letter/word is there, add the item to the new list
-            if item.item.contains(using) {
+            if item.item.lowercased().contains(using.lowercased()) {
                 filteredList.append(item)
             }
         }
