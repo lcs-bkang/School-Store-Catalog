@@ -21,17 +21,36 @@ struct CatalogView: View {
             List(catalog.items) { currentItem in
                 
                 NavigationLink(destination: ItemDetailView(catalog: currentItem)) {
-                    Text(currentItem.item)
+                    VStack {
+                        HStack {
+                            Text(currentItem.item)
+                                .font(.headline)
+                                .fontWeight(.bold)
+                            Spacer()
+                        }
+                        HStack {
+                            Text("$\(String(currentItem.cost))")
+                                .font(.callout)
+                                .fontWeight(.semibold)
+                            Spacer()
+                            Text("Category: \(currentItem.category)")
+                                .font(.callout)
+                            Spacer()
+                        }
+                    }
                 }
             }
         }
         .padding()
+        .navigationTitle("Catalog")
         .searchable(text: $searchText)
     }
 }
 
 struct CatalogView_Previews: PreviewProvider {
     static var previews: some View {
-        CatalogView(catalog: catalogTestStore)
+        NavigationView {
+            CatalogView(catalog: catalogTestStore)
+        }
     }
 }

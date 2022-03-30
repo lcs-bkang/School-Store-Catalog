@@ -18,6 +18,8 @@ struct ItemDetailView: View {
 
 struct ItemDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ItemDetailView(catalog: catalogTestStore)
+        NavigationView {
+            ItemDetailView(catalog: Catalog.exampleData)
+        }
     }
 }
