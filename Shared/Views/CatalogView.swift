@@ -18,7 +18,7 @@ struct CatalogView: View {
     var body: some View {
         VStack {
             
-            List(catalog.items) { currentItem in
+            List(searchFilter(firstList: catalog.items, search: searchText)) { currentItem in
                 
                 NavigationLink(destination: ItemDetailView(catalog: currentItem)) {
                     VStack {
