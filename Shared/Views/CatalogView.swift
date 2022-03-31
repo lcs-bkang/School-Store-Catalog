@@ -2,8 +2,6 @@
 //  CatalogView.swift
 //  Shared
 //
-//  Created by Brad Kang on 2022-03-25.
-//
 
 import SwiftUI
 
@@ -43,7 +41,8 @@ struct CatalogView: View {
         }
         .padding()
         .navigationTitle("Catalog")
-        .searchable(text: $searchText)
+        .searchable(text: $searchText, prompt: "Search for Items")
+        .disableAutocorrection(true)
     }
 }
 

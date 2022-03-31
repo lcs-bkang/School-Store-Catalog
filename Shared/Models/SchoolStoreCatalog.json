@@ -54,7 +54,7 @@
       "id":6
    },
    {
-      "item":"Standard 1/4-zip",
+      "item":"Standard 1/4-Zip Sweater",
       "cost":39.95,
       "category":"Clothes",
       "colours":[
@@ -86,7 +86,7 @@
       "id":9
    },
    {
-      "item":"Safety goggles",
+      "item":"Safety Goggles",
       "cost":6.95,
       "category":"Other",
       "colours":[
@@ -95,7 +95,7 @@
       "id":10
    },
    {
-      "item":"Hilroy 300pg Notebook",
+      "item":"Hilroy 300-Page Notebook",
       "cost":5.95,
       "category":"Academics",
       "colours":[
@@ -125,7 +125,7 @@
       "id":13
    },
    {
-      "item":"0.5mm Lead Refills (50)",
+      "item":"0.5mm Lead Refills (50pcs)",
       "cost":0.95,
       "category":"Academics",
       "colours":[
