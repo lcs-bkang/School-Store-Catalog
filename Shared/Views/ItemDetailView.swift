@@ -35,6 +35,18 @@ struct ItemDetailView: View {
                         .font(.subheadline)
                     Spacer()
                 }
+                HStack {
+                    Spacer()
+                    Text("Colour Options:")
+                        .fontWeight(.bold)
+                        .font(.headline)
+                    ForEach(catalog.colours, id: \.self) { colour in
+                        Text("\(colour)")
+                            .fontWeight(.medium)
+                            .font(.subheadline)
+                    }
+                    Spacer()
+                }
                 Spacer()
         }
             .navigationTitle(catalog.item)
