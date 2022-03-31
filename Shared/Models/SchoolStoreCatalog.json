@@ -3,6 +3,7 @@
       "item":"Dubwear Track Pants",
       "cost":41.95,
       "category":"Clothes",
+      "image":"DubwearPants",
       "colours":[
          "Grey",
          "Navy",
@@ -14,6 +15,7 @@
       "item":"Standard Dress Crewneck",
       "cost":32.95,
       "category":"Clothes",
+      "image":"Crewneck",
       "colours":[
          "Navy",
          "Green",
@@ -25,6 +27,7 @@
       "item":"Barbarian Rugby Shirt",
       "cost":64.95,
       "category":"Clothes",
+      "image":"RugbyShirt",
       "colours":[
          "Navy",
          "Red/Green",
@@ -36,6 +39,7 @@
       "item":"LCS Branded Hoodie",
       "cost":39.95,
       "category":"Clothes",
+      "image":"LCSHoodie",
       "colours":[
          "Green",
          "Red",
@@ -48,6 +52,7 @@
       "item":"LCS Grove Hoodie",
       "cost":49.95,
       "category":"Clothes",
+      "image":"GroveHoodie",
       "colours":[
          "Green"
       ],
@@ -57,6 +62,7 @@
       "item":"Standard 1/4-Zip Sweater",
       "cost":39.95,
       "category":"Clothes",
+      "image":"QuarterZip",
       "colours":[
          "Navy",
          "White",
@@ -68,6 +74,7 @@
       "item":"Nalgene 32oz Water Bottle",
       "cost":15.95,
       "category":"Other",
+      "image":"NalgeneBottle",
       "colours":[
          "Red"
       ],
@@ -77,6 +84,7 @@
       "item":"Lakefield Branded Baseball Caps",
       "cost":21.95,
       "category":"Clothes",
+      "image":"BaseballCap",
       "colours":[
          "Red",
          "Green",
@@ -89,6 +97,7 @@
       "item":"Safety Goggles",
       "cost":6.95,
       "category":"Other",
+      "image":"Goggles",
       "colours":[
          "N/A"
       ],
@@ -98,6 +107,7 @@
       "item":"Hilroy 300-Page Notebook",
       "cost":5.95,
       "category":"Academics",
+      "image":"Notebook",
       "colours":[
          "Black",
          "Blue"
@@ -108,6 +118,7 @@
       "item":"Protractor",
       "cost":0.4,
       "category":"Academics",
+      "image":"Protractor",
       "colours":[
          "N/A"
       ],
@@ -117,6 +128,7 @@
       "item":"WOW Mechanical Pencil",
       "cost":0.55,
       "category":"Academics",
+      "image":"MechPencil"
       "colours":[
          "Black",
          "Blue",
@@ -128,6 +140,7 @@
       "item":"0.5mm Lead Refills (12pcs)",
       "cost":0.95,
       "category":"Academics",
+      "image":"LeadRefill",
       "colours":[
          "N/A"
       ],
@@ -137,6 +150,7 @@
       "item":"Texas Instruments Calculator",
       "cost":17.95,
       "category":"Academics",
+      "image":"Calculator",
       "colours":[
          "N/A"
       ],
@@ -146,6 +160,7 @@
       "item":"Frixion 0.7mm Erasable Pen",
       "cost":2.95,
       "category":"Academics",
+      "image":"ErasablePen",
       "colours":[
          "Black",
          "Blue",
@@ -160,6 +175,7 @@
       "item":"Gum",
       "cost":0.95,
       "category":"Other",
+      "image":"Gum",
       "colours":[
          "N/A"
       ],
@@ -169,6 +185,7 @@
       "item":"LCS Mug",
       "cost":9.95,
       "category":"Other",
+      "image":"Mug",
       "colours":[
          "N/A"
       ],
