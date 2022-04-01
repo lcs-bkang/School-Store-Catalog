@@ -28,3 +28,16 @@ func searchFilter(firstList original: [Catalog], search using: String) -> [Catal
         return filteredList
     }
 }
+
+func colourList(colours: [String]) -> String {
+
+    // Create variable to hold the final string
+    var finalColours = ""
+
+    // Iterate over each colour in the list
+    for colour in colours {
+        finalColours += " \(colour),"
+    }
+
+    return finalColours
+}

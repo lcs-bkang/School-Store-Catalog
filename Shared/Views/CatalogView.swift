@@ -14,35 +14,37 @@ struct CatalogView: View {
     @State var searchText = ""
     
     var body: some View {
-        VStack {
-            
-            List(searchFilter(firstList: catalog.items, search: searchText)) { currentItem in
+        NavigationView {
+            VStack {
                 
-                NavigationLink(destination: ItemDetailView(catalog: currentItem)) {
-                    VStack {
-                        HStack {
-                            Text(currentItem.item)
-                                .font(.headline)
-                                .fontWeight(.bold)
-                            Spacer()
-                        }
-                        HStack {
-                            Text("$\(String(currentItem.cost))")
-                                .font(.callout)
-                                .fontWeight(.semibold)
-                            Spacer()
-                            Text("Category: \(currentItem.category)")
-                                .font(.callout)
-                            Spacer()
+                List(searchFilter(firstList: catalog.items, search: searchText)) { currentItem in
+                    
+                    NavigationLink(destination: ItemDetailView(catalog: currentItem)) {
+                        VStack {
+                            HStack {
+                                Text(currentItem.item)
+                                    .font(.headline)
+                                    .fontWeight(.bold)
+                                Spacer()
+                            }
+                            HStack {
+                                Text("$\(String(currentItem.cost))")
+                                    .font(.callout)
+                                    .fontWeight(.semibold)
+                                Spacer()
+                                Text("Category: \(currentItem.category)")
+                                    .font(.callout)
+                                Spacer()
+                            }
                         }
                     }
                 }
             }
+            .padding()
+            .navigationTitle("Catalog")
+            .searchable(text: $searchText, prompt: "Search for Items")
+            .disableAutocorrection(true)
         }
-        .padding()
-        .navigationTitle("Catalog")
-        .searchable(text: $searchText, prompt: "Search for Items")
-        .disableAutocorrection(true)
     }
 }
 
