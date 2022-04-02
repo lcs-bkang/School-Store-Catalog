@@ -37,7 +37,6 @@ struct ItemDetailView: View {
                     Text("Colour Options:")
                         .fontWeight(.bold)
                         .font(.title2)
-                    
                     Text(colourList(colours: catalog.colours).dropLast())
                         .fontWeight(.medium)
                         .font(.headline)
